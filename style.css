@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header_main{
+    display: flex;
+    background-color: rgb(25, 25, 54);
+    height: auto;
+    width: 100%;
+}
+#iit_logo img{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+#irc_logo img{
+    height: 3.125rem;
+    width: 3.125rem;
+    margin-left: 0.625rem;
+    object-fit: fill;
+}
+#company{
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
+    margin-left: 0.625rem;
+    border-left: 2px solid white;
+    color: whitesmoke;
+}
+#iit{
+    color: rgb(107, 107, 250);
+}
+#menu ul{
+    position: absolute;
+    right: 1em;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    transform: translateY(-0.9375rem);
+    padding-left: 0.625rem;
+    cursor: pointer;
+}
+li a:active{
+    border-bottom: 2px solid white;
+    background-color: rgb(1, 1, 3);
+}
+#menu img{
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;
+    transform: translateY(0.9375rem);
+}
+#universities{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.nav_countries{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(25, 25, 54);
+    color: white;
+    height: auto;
+}
+#all{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    cursor: pointer;
+}
+#northAmerica{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    cursor: pointer;
+}
+#southAmerica{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    cursor: pointer;
+}
+#asia{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    cursor: pointer;
+}
+#europe{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    cursor: pointer;
+}
+#australia{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    cursor: pointer;
+}
+#all_universities{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.625rem;
+}
+/* #northAmerica_universities{
+    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.625rem;
+} */
+.colleges_info{
+    position: relative;
+}
+.colleges_info img{
+    display: block;
+    width: 350px;
+    height: 150px;
+    border-bottom-left-radius: 20% ;
+    border-bottom-right-radius: 20% ;
+    padding: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+    margin: 0.1875rem 1.25rem 0.1875rem 1.25rem;
+}
+.colleges_info .fa-bookmark{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+.colleges_info .fa-circle-info{
+    position: absolute;
+    left: 320px;
+    top: 10px;
+}
+.collegeName{
+    color: rgb(75, 104, 208);
+    font-size: 1.75rem;
+}
+.country, .expense{
+    color: blue;
+}
+.deadline{
+    color:red;
+}
+.btn{
+    width: 9.125rem;
+    background-color: rgb(25, 25, 54);
+    margin-top: 0.25rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+#application{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(25, 25, 54);
+    color: white;
+    height: auto;
+}
+#application img{
+    height: 100px;
+    width: 100px;
+    margin-left: 0.625rem;
+    /* object-fit: fill; */
+}
+.content{
+    width: 800px;
+    /* height: auto; */
+    white-space: pre;
+    word-spacing: 3px;
+    font-size: 32px;
+    text-align: center;
+    /* margin: 10px 20px 5px 20px;
+    padding: 10px 20px 5px 20px; */
+}
+.content span{
+    font-size: smaller;
+}
+.input-field{
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 37%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+.input-field input{
+    width: 300px;
+}
+.input-field .fa-file-signature{
+   position: relative;
+   /* left: 15px;
+   top: 15px; */
+}
+#choices{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.625rem;
+    /* padding-left: 50px;
+    margin-left: 50px; */
+}
+input{
+    margin: .4rem;
+}
