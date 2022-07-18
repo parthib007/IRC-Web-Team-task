@@ -5,6 +5,12 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: rgb(32, 90, 250);
+}
+a:active{
+    color: rgb(58, 215, 58);
+}
 #header_main{
     display: flex;
     background-color: rgb(25, 25, 54);
@@ -58,6 +64,7 @@ li a:active{
 }
 #universities{
     position: absolute;
+    min-height: 100vh;
     top: 12%;
     left: 10%;
     right: 10%;
@@ -160,6 +167,7 @@ li a:active{
     width: 9.125rem;
     background-color: rgb(25, 25, 54);
     margin-top: 0.25rem;
+    margin-bottom: 1rem;
     color: white;
     text-align: center;
     cursor: pointer;
@@ -219,4 +227,58 @@ li a:active{
 }
 input{
     margin: .4rem;
+}
+#footer{
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap ;
+}
+.about-irc{
+    margin-top: 2rem;
+    width: 450px;
+
+}
+.quick-links{
+    margin-top: 2rem;
+    white-space: pre;
+    word-spacing: 1.5px;
+    text-indent: 2px;
+}
+.contact-us{
+    margin-top: 2rem;
+    white-space: pre;
+    word-spacing: 1.5px;
+    text-indent: 2px;
+}
+.contact-us a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.contact-us a:hover{
+    color: rgb(32, 90, 250);
+}
+.contact-us a:active{
+    color: rgb(58, 215, 58);
+}
+.contact-us-icons{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 90px;
+}
+.fa-youtube:hover{
+    transform: translateX(20%);
+    padding-right:20px ;
+}
+.fa-facebook:hover{
+    transform: translateX(20%);
+    padding-right:20px ;
+}
+.fa-instagram:hover{
+    transform: translateX(20%);
+    padding-right:20px ;
 }
